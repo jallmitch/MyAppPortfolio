@@ -15,31 +15,49 @@ public class MainActivity extends AppCompatActivity {
 
     public void popularMovies(View view)
     {
-        Toast.makeText(this, "'POPULAR MOVIES' button selected", Toast.LENGTH_LONG).show();
+        Toast.makeText(this,
+                       getResources().getString(R.string.popular_movies) + " " +
+                       getResources().getString(R.string.toast_message),
+                       Toast.LENGTH_LONG).show();
     }
 
     public void stockHawk(View view)
     {
-        Toast.makeText(this, "'STOCK HAWK' button selected", Toast.LENGTH_LONG).show();
+        Toast.makeText(this,
+                       getResources().getString(R.string.stock_hawk) + " " +
+                       getResources().getString(R.string.toast_message),
+                       Toast.LENGTH_LONG).show();
     }
 
     public void buildBigger(View view)
     {
-        Toast.makeText(this, "'BUILD IT BIGGER' button selected", Toast.LENGTH_LONG).show();
+        Toast.makeText(this,
+                       getResources().getString(R.string.build_bigger) + " " +
+                       getResources().getString(R.string.toast_message),
+                       Toast.LENGTH_LONG).show();
     }
 
     public void appMaterial(View view)
     {
-        Toast.makeText(this, "'MAKE YOUR APP MATERIAL' button selected", Toast.LENGTH_LONG).show();
+        Toast.makeText(this,
+                       getResources().getString(R.string.app_material) + " " +
+                       getResources().getString(R.string.toast_message),
+                       Toast.LENGTH_LONG).show();
     }
 
     public void ubiquitous(View view)
     {
-        Toast.makeText(this, "'GO UBIQUITOUS' button selected", Toast.LENGTH_LONG).show();
+        Toast.makeText(this,
+                       getResources().getString(R.string.go_ubiquitous) + " " +
+                       getResources().getString(R.string.toast_message),
+                       Toast.LENGTH_LONG).show();
     }
 
     public void capstone(View view)
     {
-        Toast.makeText(this, "'CAPSTONE' button selected", Toast.LENGTH_LONG).show();
+        Toast.makeText(this,
+                       getResources().getString(R.string.capstone) + " " +
+                       getResources().getString(R.string.toast_message),
+                       Toast.LENGTH_LONG).show();
     }
 }

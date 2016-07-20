@@ -12,7 +12,7 @@
     <TextView
         android:layout_width="300sp"
         android:layout_height="wrap_content"
-        android:text="My Nanodegree Apps!"
+        android:text="@string/app_title"
         android:textAlignment="center"
         android:textSize="25sp"
         android:id="@+id/textView"
@@ -22,42 +22,42 @@
 
     <Button
         style="@style/buttons"
-        android:text="POPULAR MOVIES"
+        android:text="@string/popular_movies"
         android:layout_below="@+id/textView"
         android:id="@+id/movies"
         android:onClick="popularMovies"/>
 
     <Button
         style="@style/buttons"
-        android:text="STOCK HAWK"
+        android:text="@string/stock_hawk"
         android:layout_below="@+id/movies"
         android:id="@+id/stock"
         android:onClick="stockHawk"/>
 
     <Button
         style="@style/buttons"
-        android:text="BUILD IT BIGGER"
+        android:text="@string/build_bigger"
         android:layout_below="@+id/stock"
         android:id="@+id/bigger"
         android:onClick="buildBigger"/>
 
     <Button
         style="@style/buttons"
-        android:text="MAKE YOUR APP MATERIAL"
+        android:text="@string/app_material"
         android:layout_below="@+id/bigger"
         android:id="@+id/material"
         android:onClick="appMaterial"/>
 
     <Button
         style="@style/buttons"
-        android:text="GO UBIQUITOUS"
+        android:text="@string/go_ubiquitous"
         android:layout_below="@+id/material"
         android:id="@+id/ubiquitous"
         android:onClick="ubiquitous"/>
 
     <Button
         style="@style/buttons"
-        android:text="CAPSTONE"
+        android:text="@string/capstone"
         android:layout_below="@+id/ubiquitous"
         android:id="@+id/capstone"
         android:onClick="capstone"/>
